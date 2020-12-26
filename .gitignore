@@ -1,0 +1,6 @@
+# rtimulib2-pypilot
+RTIMULib2-*
+rtimulib2-pypilot*
+python*
+rtimulib2/*
+!rtimulib2/debian
