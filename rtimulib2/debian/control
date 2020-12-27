@@ -8,11 +8,11 @@ Build-Depends: debhelper (>= 9), dh-python, python3-dev,
 Standards-Version: 4.3.0
 Homepage: http://pypilot.org
 
-Package: python3-rtimulib-pypilot
+Package: python3-rtimulib2-pypilot
 Conflicts: python3-rtimulib
-Section: python
+Section: python, librtimulib7
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, python3
 Description: Versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library (Python 3)
  The simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux
  system and obtain Kalman-filtered quaternion or Euler angle pose data.
@@ -21,15 +21,15 @@ Description: Versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library (Pyth
  .
  This package provides the Python 3 module.
 
-Package: python2-rtimulib-pypilot
-Conflicts: python-rtimulib
+Package: python2-rtimulib2-pypilot
+Conflicts: python-rtimulib, librtimulib7
 Section: python
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python2:Depends}
+Depends: ${misc:Depends}, python2.7
 Description: Versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library (Python 3)
  The simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux
  system and obtain Kalman-filtered quaternion or Euler angle pose data.
  Basically, two simple function calls (IMUInit() and IMURead()) are pretty much
  all that's needed to integrate RTIMULib.
  .
- This package provides the Python 3 module.
+ This package provides the Python 2 module.
