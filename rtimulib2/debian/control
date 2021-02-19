@@ -10,7 +10,6 @@ Homepage: http://pypilot.org
 
 Package: python3-rtimulib2-pypilot
 Conflicts: python3-rtimulib
-Section: python, librtimulib7
 Architecture: any
 Depends: ${misc:Depends}, python3
 Description: Versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library (Python 3)

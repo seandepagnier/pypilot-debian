@@ -4,3 +4,5 @@ rtimulib2-pypilot*
 python*
 rtimulib2/*
 !rtimulib2/debian
+rtimulib2/debian/files
+rtimulib2/debian/debhelper-build-stamp

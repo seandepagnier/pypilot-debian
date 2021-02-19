@@ -8,12 +8,19 @@ The used packaging tool here is **dh_make** and the packaging approach is **nati
 ## Create a debian package for rtimulib2 library 
 rtimulib2 is a wildly used and well established library. Pypilot have it's own flavour of it.It must not be confused or replaced with any other rtimulib lib.
 
-### Download rtimulib2
+### Download this repository 
+```
+git clone https://github.com/pypilot/pypilot-debian.git
+cd pypilot-debian
+```
+
+
+### Get rtimulib2 source code 
 ```
 wget https://github.com/seandepagnier/RTIMULib2/archive/master.zip
 unzip master.zip
 cp -r RTIMULib2-master/* rtimulib2/
-rm master.zip
+rm -r master.zip RTIMULib2-master
 ```
 
 ### Build the Package
